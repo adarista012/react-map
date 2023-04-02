@@ -1,0 +1,14 @@
+*{
+  font-family: 'Montesart', sans-serif;
+}
+body{
+  margin: 10px;
+}
+.containerCards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-column-gap: 10px;
+}
+h1{
+  width: 100%;
+}
